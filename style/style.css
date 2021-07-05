@@ -253,6 +253,10 @@ a {
     .send {
         width: 40%;
     }
+    .contact_form { 
+        width: 50%;
+    }
+
 
 
 
@@ -273,6 +277,10 @@ a {
     .send {
         width: 50%;
     }
+    .contact_form {
+        width: 80%;
+    }
+    
     
 }
 
@@ -295,4 +303,7 @@ a {
      .send {
          width: 50%;
      }
+     .contact_form {
+         width: 90%;
+
 }

@@ -15,10 +15,10 @@
        <div class="container">
       <div class="logo1">   <img src="./images/logo2.png" alt="logo2" id="logo"> </div>
          <div class="menu2">  <ul class="menu1"> 
-               <li class="hireme" id="hireme"><a href="#">Hire me</a></li>
-               <li><a href="#">About</a> </li>
-               <li><a href="#ski">Skills</a></li>
-               <li><a href="#">Contact</a></li>
+               <li class="hireme" id="hireme"><a href="#" id="hirew">Hire me</a></li>
+               <li><a href="#projectslink">Projects</a> </li>
+               <li><a href="#skillslink">Skills</a></li>
+               <li><a href="#contactlink">Contact</a></li>
            </ul>
          </div>
         
@@ -38,9 +38,9 @@
 
     <div class="mob_menu" id="mob_menu"><div class="menu4">  <ul class="menu5"> 
         <li class="hireme">Hire me</li>
-        <li>About </li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <li> <a href="#projectslink" onclick="quit()"> Projects </a></li>
+        <li> <a href="#skillslink" onclick="quit()"> Skills </a></li>
+        <li> <a href="#contactlink" onclick="quit()"> Contact </a></li>
     </ul>
   </div></div>
 
@@ -54,7 +54,7 @@
 
     <!--end of mobile menu-->
     <div class="intro">
-        <div class="introduction"> <p>Hi,</p> <p>I am Ishimwe Robet. I am Rwanda based web designer.</p>I like to develop solution and to collaborate with other designers & developers. 
+        <div class="introduction"> <p>Hi,</p> <p>I am Ishimwe Robet. I am Rwanda based web designer.</p>I like to develop solutions and to collaborate with other designers & developers. 
         </br>
             <button class="btn1">Hire Me</button>
         
@@ -62,7 +62,7 @@
      
     </div>
     <div class="skill_section" id="ski">
-    <span class="skill">Skills</span>
+    <span class="skill" id="skillslink">Skills</span>
     </div>
    <div class="skills" id="skills">
    <img src="./images/html1.webp" alt="html logo" class="logoz">
@@ -74,8 +74,24 @@
 
    <!-- end of Skills skill_section -->
 
+
+   <div class="skill_section" id="ski">
+    <span class="skill" id="projectslink">Projects</span>
+   </div>
+
+   <div class="projects">
+    <p class="no_project">No project has been added yet!</p>
+
+   </div>
+
+
+
+
+   <!--end of project section-->
+
+
    <div class="skill_section">
-    <span class="skill">Contact</span>
+    <span class="skill" id="contactlink">Contact</span>
     </div>
     
    <div class="contact_section">
@@ -86,28 +102,47 @@
 
 
             </div>
-            <form class="grand_box" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScsfxzrCGx1Dsb_ax_rCNIw8n538JPIKljqqu623_tsZ5Evig/formResponse" target="_self" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0" data-last-entry="3" data-is-first-page="true">
-          <!--  <label for="name" class="contactbox box1">Name:</label><input type="text" class="injiza  boxi1" id="name" required>
-            <label for="email" class="contactbox box2">E-mail:</label><input type="email" class="injiza boxi2" id="email" required>
-            <label for="message" class="contactbox box3">Message:</label><textarea class=" injiza boxi3" id="message" required></textarea>
-          --><input type="submit" class="send" id="send" onclick="send()" value=" SEND ">
+            <form class="grand_box" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd_DH3vOYbEldeqoE_3sFTGw1HBgn5mgT8UWeYT3O5VQwBJhQ/formResponse" target="_self" method="POST">
+          <label for="name" class="contactbox box1">Name:</label><input type="text" class="injiza  boxi1" id="name" name="entry.1037508970" required>
+          <label for="email" class="contactbox box2">E-mail:</label><input type="email" class="injiza boxi2" id="email" name="entry.1658893032" required>
+          <label for="message" class="contactbox box3">Message:</label><textarea class=" injiza boxi3" id="message" name="entry.2120343278" required></textarea>
+          <input type="submit" class="send" id="send" onclick="send()" value=" SEND ">
 
 
-           <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Your email" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
 
     
             </form>
         </div>
   </div> 
 
+  <!-- end of contact section-->
+
+
+  <div class="skill_section">
+    <span class="skill"> Connect </span>
+    </div>
+
+    <div class="connect_with">
+      <img src="./images/facebook.png" alt="facebook" class="connect_with_icon">
+
+      <img src="./images/github_black.png" alt="facebook" class="connect_with_icon">
+      
+      <img src="./images/instagram.png" alt="facebook" class="connect_with_icon">
+
+      <img src="./images/twitter.png" alt="facebook" class="connect_with_icon">
+
+      
+
+    </div>
 
 
 
 
 
 
-
-
+<footer>
+  <p class="footery"> &copy Robert ishimwe 2021 </p>
+</footer>
 
 
 

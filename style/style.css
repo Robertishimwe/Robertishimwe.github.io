@@ -7,7 +7,11 @@
 }
 a {
     text-decoration: none;
-    color: black;
+    color:black;
+    
+}
+#hirew {
+    color: white;
 }
 #hireme {
     color: white;
@@ -19,6 +23,7 @@ body {
 #web {
     position:fixed;
     background-color: white;
+    color: white;
     box-shadow: 0 0 10px rgb(77, 75, 75);
     width: 100%;
     top:0;
@@ -129,6 +134,17 @@ svg {
 a {
     text-decoration: none;
 }
+.projects {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.no_project {
+    display: flex;
+    
+
+}
 .contact_section {
     display: flex;
     justify-content: center;
@@ -173,6 +189,11 @@ a {
     margin-right: 8px;
 
 }
+/*.injiza:hover {
+    border: 1px solid #1D53AE;
+    margin-left: 8px;
+    margin-right: 8px;
+}*/
 .boxi3 {
     height: 70px;
 }
@@ -189,6 +210,23 @@ a {
     font-size: larger;
     text-align: center;
 
+}
+.connect_with {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    
+}
+.connect_with_icon {
+    width: 80px;
+}
+footer {
+    display: flex;
+    bottom: 0;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+    background-color:  rgb(232, 241, 241);
 }
 
 
@@ -274,13 +312,18 @@ a {
     .logos {
         display: none;
     }
+    .logo1 {
+        padding-top: 4;
+    }
     .send {
         width: 50%;
     }
     .contact_form {
         width: 80%;
     }
-    
+    .connect_with_icon {
+        width: 50px;
+    }
     
 }
 
@@ -305,5 +348,11 @@ a {
      }
      .contact_form {
          width: 90%;
-
+     }
+}
+@media all and (max-width: 500px) {
+    .contact_form {
+        width: 70%;
+    }
+    
 }
